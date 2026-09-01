@@ -1,5 +1,5 @@
 algoritmo "exercicio 28"
-
+// feito por Rafael Araujo
 var
 
   nome :caractere
@@ -27,7 +27,7 @@ inicio
     escreval ("Insira o nome")
     leia (nome)
     se (nome = "") entao
-      escreval "É necessario preencher o espaco."
+      escreval "Ã‰ necessario preencher o espaco."
     fimse
   ate (nome <> "")
 
@@ -36,5 +36,5 @@ inicio
   coleta_de_dados_e_calculo (valor_hora,"o valor da hora: ")
 
   escreval ("Nome do funcionario: ",nome)
-  escreval ("O valor do salario é ",quant_horas_trabalhadas * valor_hora)
+  escreval ("O valor do salario Ã© ",quant_horas_trabalhadas * valor_hora)
 fimalgoritmo
