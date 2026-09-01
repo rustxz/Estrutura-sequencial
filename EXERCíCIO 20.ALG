@@ -1,5 +1,5 @@
-algoritmo "exercício 20"
-
+algoritmo "exercÃ­cio 20"
+// feito por Rafael Araujo
 var
 
   base,altura,total :real
@@ -22,6 +22,6 @@ inicio
   coleta_dados ("a base:",base)
   coleta_dados ("a altura:",altura)
   total <- base * altura
-  escreval ("A area é total é ",total)
+  escreval ("A area Ã© total Ã© ",total)
 
 fimalgoritmo
