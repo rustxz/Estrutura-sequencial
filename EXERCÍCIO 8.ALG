@@ -1,26 +1,22 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 01/09/2026
+// Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 num1, num2, num3, soma: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Digite o primeiro número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreva("Digite o primeiro nÃºmero: ")
 leia(num1)
 
-escreva("Digite o segundo número: ")
+escreva("Digite o segundo nÃºmero: ")
 leia(num2)
 
-escreva("Digite o terceiro número: ")
+escreva("Digite o terceiro nÃºmero: ")
 leia(num3)
 
 soma <- num1 + num2 + num3
 
-escreval("O resultado da soma de números inteiros é: ",soma)
+escreval("O resultado da soma de nÃºmeros inteiros Ã©: ",soma)
 
 Fimalgoritmo
