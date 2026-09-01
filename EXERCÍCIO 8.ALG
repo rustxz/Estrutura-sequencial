@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+
 num1, num2, num3, soma: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+.
 escreva("Digite o primeiro número: ")
 leia(num1)
 
