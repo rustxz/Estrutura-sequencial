@@ -1,5 +1,5 @@
 algoritmo "exercicio 12"
-
+// feito por Rafael Araujo
 var
 
   numero_1,numero_2 :real
