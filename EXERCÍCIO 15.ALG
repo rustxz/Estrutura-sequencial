@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+
 horas, minutos: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
 escreva("Digite suas horas: ")
 leia(horas)
 
