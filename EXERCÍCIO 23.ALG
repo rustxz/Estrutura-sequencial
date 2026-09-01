@@ -1,23 +1,19 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 01/09/2026
+// Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 base, altura, area: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Digite a base do triângulo: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreva("Digite a base do triÃ¢ngulo: ")
 leia(base)
 
-escreva("Digite a altura do triângulo: ")
+escreva("Digite a altura do triÃ¢ngulo: ")
 leia(altura)
 
 area <- (base * altura) / 2
 
-escreval("A área desse triângulo é: ", area)
+escreval("A Ã¡rea desse triÃ¢ngulo Ã©: ", area)
 
 Fimalgoritmo
