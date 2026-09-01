@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+
 base, altura, area: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
 escreva("Digite a base do triângulo: ")
 leia(base)
 
