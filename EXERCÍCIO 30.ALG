@@ -1,24 +1,20 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 01/09/2026
+// Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 valortotal, valorporpessoa: real
 pessoas: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite o valor total da conta do restaurante: ")
 leia(valortotal)
 
-escreva("Quantas pessoas vão dividir a conta: ")
+escreva("Quantas pessoas vÃ£o dividir a conta: ")
 leia(pessoas)
 
 valorporpessoa <- valortotal / pessoas
 
-escreval("O que cada pessoa deve pagar é: ",valorporpessoa)
+escreval("O que cada pessoa deve pagar Ã©: ",valorporpessoa)
 
 Fimalgoritmo
