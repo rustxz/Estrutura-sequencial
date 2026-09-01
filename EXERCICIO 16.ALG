@@ -1,6 +1,5 @@
 algoritmo "exercicio 16"
-
-
+// feito por Rafael Araujo
 var
 
   minutos :real
@@ -17,5 +16,5 @@ inicio
     fimse
   ate (minutos > 0)
 
-  escreval (minutos," minutos em segundos é = ",minutos * 60)
+  escreval (minutos," minutos em segundos Ã© = ",minutos * 60)
 fimalgoritmo
