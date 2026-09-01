@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+
 media1, media2, media3, medialuno: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
 escreva("Digite a primeira média: ")
 leia(media1)
 
