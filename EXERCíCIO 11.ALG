@@ -1,6 +1,5 @@
-algoritmo "exercício 11"
-
-
+algoritmo "exercÃ­cio 11"
+// feito por Rafael Araujo
 var
   nota,nota_soma :real
   loop :inteiro
@@ -15,5 +14,5 @@ inicio
     nota_soma <- nota_soma + nota
 
   fimpara
-  escreval ("Sua media é: ",nota_soma / 4)
+  escreval ("Sua media Ã©: ",nota_soma / 4)
 fimalgoritmo
