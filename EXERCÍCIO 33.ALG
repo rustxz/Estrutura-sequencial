@@ -1,12 +1,12 @@
 Algoritmo "semnome"
 // Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+
 nome: caractere
 pesokg, alturamt, imc: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
 escreva("Digite seu nome: ")
 leia(nome)
 
