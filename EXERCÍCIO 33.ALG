@@ -1,16 +1,12 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 01/09/2026
+// Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome: caractere
 pesokg, alturamt, imc: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite seu nome: ")
 leia(nome)
 
@@ -22,6 +18,6 @@ leia(alturamt)
 
 imc <- pesokg / (alturamt * alturamt)
 
-escreval("O seu imc",nome," é: ",imc:2:1)
+escreval("O seu imc",nome," Ã©: ",imc:2:1)
 
 Fimalgoritmo
