@@ -1,20 +1,16 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 01/09/2026
+// Feito por katarina
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 horas, minutos: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite suas horas: ")
 leia(horas)
 
 minutos <- horas * 60
 
-escreval("A quantidade de minutos é: ", minutos)
+escreval("A quantidade de minutos Ã©: ", minutos)
 
 Fimalgoritmo
