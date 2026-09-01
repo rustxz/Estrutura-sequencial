@@ -1,5 +1,5 @@
-algoritmo "exercício 5"
-
+algoritmo "exercÃ­cio 5"
+// feito por Rafael Araujo
 var
 
   n :inteiro
