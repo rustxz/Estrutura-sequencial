@@ -1,6 +1,5 @@
 algoritmo "exercicio 24"
-
-
+// feito por Rafael Araujo
 var
 
   raio :real
@@ -16,5 +15,5 @@ inicio
       escreval ("raio invalido <= 0")
     fimse
   ate (raio > 0)
-  escreval ("A area do circulo é: ", 3.14 * raio * raio)
+  escreval ("A area do circulo Ã©: ", 3.14 * raio * raio)
 fimalgoritmo
