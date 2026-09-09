@@ -1,6 +1,5 @@
 algoritmo "EXERCICIO 38"
-
-
+// feito por Rafael Araujo
 var
 
   valor_entregue,valor_total :real
