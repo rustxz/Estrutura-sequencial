@@ -1,14 +1,11 @@
-algoritmo "exercicio 28"
-// feito por Rafael Araujo
+algoritmo "calculo de salario"
+
 var
 
   nome :caractere
-  quant_horas_trabalhadas,valor_hora :real
+  quant_horas,valor_hora :real
 
-procedimento coleta_de_dados_e_calculo (var x :real;palavra :caractere)
-
-  var
-    formula :real
+procedimento coleta_dados (palavra :caractere;var x :real)
   inicio
     repita
       escreval ("Insira ",palavra)
@@ -17,24 +14,19 @@ procedimento coleta_de_dados_e_calculo (var x :real;palavra :caractere)
         escreval ("Dado invalido - ")
       fimse
     ate (x >= 0)
-
 fimprocedimento
+
 inicio
-  escreval ("--------------------------")
-  escreval ("  CALCULADORA DE SALARIO  ")
-  escreval ("--------------------------")
+
   repita
-    escreval ("Insira o nome")
+    escreval ("Digite o nome do funcionario: ")
     leia (nome)
     se (nome = "") entao
-      escreval "É necessario preencher o espaco."
+      escreval ("Necessario preencher o espaco.")
     fimse
   ate (nome <> "")
-
-  coleta_de_dados_e_calculo (quant_horas_trabalhadas,"a quantidade de horas trabalhadas: ")
-
-  coleta_de_dados_e_calculo (valor_hora,"o valor da hora: ")
-
+  coleta_dados ("a quantidade de horas trabalhadas: ",quant_horas)
+  coleta_dados ("o valor da hora: ",valor_hora)
   escreval ("Nome do funcionario: ",nome)
-  escreval ("O valor do salario é ",quant_horas_trabalhadas * valor_hora)
+  escreval ("O funcionario ",nome," deve receber ",valor_hora * quant_horas," reais.")
 fimalgoritmo
