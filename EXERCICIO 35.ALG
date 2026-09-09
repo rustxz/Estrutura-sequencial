@@ -1,5 +1,5 @@
 algoritmo "EXERCICIO 35"
-
+// feito por Rafael Araujo
 var
 
   litros_abastecidos,valor_combustivel :real
@@ -21,5 +21,5 @@ fimprocedimento
 inicio
   coleta_de_dados(litros_abastecidos,"a quantidade de litros abastecidos: ")
   coleta_de_dados(valor_combustivel,"o valor do combustivel: ")
-  escreval ("O valor a pagar é = ",litros_abastecidos * valor_combustivel, " reais.")
+  escreval ("O valor a pagar Ã© = ",litros_abastecidos * valor_combustivel, " reais.")
 fimalgoritmo
