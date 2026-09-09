@@ -1,5 +1,5 @@
 algoritmo "EXERCICIO 32"
-
+// feito por Rafael Araujo
 var
 
   s,t :real
@@ -21,5 +21,5 @@ fimprocedimento
 inicio
   coleta_de_dados (s, "a digstancia percorrida em km: ")
   coleta_de_dados (t, "o tempo gasto em horas: ")
-  escreval ("A velocidade media é = ",s/t," km/h")
+  escreval ("A velocidade media Ã© = ",s/t," km/h")
 fimalgoritmo
