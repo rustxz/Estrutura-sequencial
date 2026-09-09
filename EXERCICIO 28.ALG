@@ -1,5 +1,5 @@
-algoritmo "calculo de salario"
-
+algoritmo "EXERCICIO 28"
+//feito por Rafael Araujo
 var
 
   nome :caractere
