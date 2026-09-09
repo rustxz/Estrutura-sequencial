@@ -1,8 +1,8 @@
-algoritmo "EXERCICIO 38"
+algoritmo "exercicio 38"
 // feito por Rafael Araujo
 var
 
-  valor_entregue,valor_total :real
+  valor_pago,valor_total :real
 
 procedimento coleta_de_dados (var x :real ;palavra :caractere)
 
@@ -19,12 +19,18 @@ procedimento coleta_de_dados (var x :real ;palavra :caractere)
 fimprocedimento
 inicio
 
+  escreval ("------------------------")
+  escreval ("  CALCULADORA DE TROCO  ")
+  escreval ("------------------------")
+
   coleta_de_dados (valor_total,"total: ")
-  coleta_de_dados (valor_entregue,"pago: ")
-  se (valor_total <= valor_entregue) entao
-    escreval ("Devera ser devolvido ",valor_entregue - valor_total, " reais.")
+  coleta_de_dados (valor_pago,"pago: ")
+  se (valor_total <= valor_pago) entao
+    escreval ("Devera ser devolvido ",valor_pago - valor_total, " reais.")
   senao
-    escreval ("Esta faltando ",valor_total - valor_entregue," reais.")
+    escreval ("Esta faltando ",valor_total - valor_pago," reais.")
   fimse
 
 fimalgoritmo
+
+
