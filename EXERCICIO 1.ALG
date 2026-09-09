@@ -1,15 +1,14 @@
-Algoritmo "EXERCICIO 1"
-
-// Feito por: Gustavo Abreu
-
+Algoritmo "semnome"
+//Aluno:Cristiano Ronaldo
 Var
-nome : caracter
+// Seção de Declarações das variáveis 
+nome:caractere
 
 Inicio
-Escreval("Digite seu nome: ")
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("=====EXERCICIO 1=====")
+escreva("Digite o seu nome: ")
 leia(nome)
-
-Escreval("Olá, ", nome ,"! Seja bem-vindo ao curso de Lógica de Programação.")
-
+escreva("Olá, ", nome, "! Seja bem-vindo ao curso de Lógica de Programação.")
 
 Fimalgoritmo

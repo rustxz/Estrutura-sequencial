@@ -1,27 +1,23 @@
-Algoritmo "EXERCICIO 2"
-
-// Feito por: Gustavo Abreu
-
+Algoritmo "semnome"
+//Aluno:Cristiano Ronaldo
 Var
-nome, cidade : caracter
-idade: inteiro
+// Seção de Declarações das variáveis 
+nome : caractere
+idade : inteiro
+cidade : caractere
+
 
 Inicio
-Escreval("Digite seu nome: ")
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("=====EXERCICIO 1=====")
+escreva("Qual é o seu nome: ")
 leia(nome)
-
-Escreval("Digite sua idade: ")
+escreva("Qual é a sua idade: ")
 leia(idade)
-
-Escreval("Em qual cidade você reside?: ")
+escreva("Qual é a sua cidade: ")
 leia(cidade)
-
-escreval("")
-escreval("===================================")
-Escreval("Nome: ", nome)
-escreval("Idade: ", idade)
+escreval("======================")
+escreval("Nome: ", nome)
+escreval("Idade: ", idade, " anos")
 escreval("Cidade: ", cidade)
-escreval("===================================")
-
-
 Fimalgoritmo

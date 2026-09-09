@@ -1,18 +1,15 @@
-Algoritmo "EXERCICIO 13"
-
-// Feito por: Gustavo Abreu
-
+Algoritmo "semnome"
+//Aluno:Cristiano Ronaldo
 Var
-
-idade, meses: inteiro
+// Seção de Declarações das variáveis 
+idade:inteiro
+meses:inteiro
 
 Inicio
-
-escreval("Digite sua idade: ")
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("=====EXERCICIO 13=====")
+escreva("Qual é a sua idade em anos: ")
 leia(idade)
-
 meses <- idade * 12
-
-Escreval("Sua idade em meses é: ", meses)
-
+escreval("Com tudo isso, você já viveu :", meses, " meses.")
 Fimalgoritmo

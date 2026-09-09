@@ -1,20 +1,15 @@
-Algoritmo "EXERCICIO 18"
-// Feito por: Gustavo Abreu
-
+Algoritmo "semnome"
+//Aluno:Cristiano Ronaldo
 Var
-
-km,m : real
-unidade: caracter
+// Seção de Declarações das variáveis 
+quilometros:real
+metros:real
 
 Inicio
-
-Escreval("Digite a distância em quilômetros: ")
-leia(km)
-
-m <- km * 1000
-unidade <- "m"
-
-escreval("Seus quilômetros em metros: ", m,unidade)
-
-
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("=====EXERCICIO 18=====")
+escreva("Qual foi a distância percorrida em quilômetros: ")
+leia(quilometros)
+metros <- quilometros * 1000
+escreval("A distância percorrida foi de aproximadamente", metros, " m.")
 Fimalgoritmo
