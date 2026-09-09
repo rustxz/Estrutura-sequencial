@@ -1,2 +1,2 @@
 Trabalho SENAI ALAGOINHAS 08/09
-grupo: Rafael Araujo,Gustavo Abreu, Katarina Gizelia 
+grupo: Rafael Araujo,Gustavo Abreu, Katarina Gizelia, Cristiano Ronaldo 
