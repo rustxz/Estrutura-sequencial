@@ -1,5 +1,5 @@
 algoritmo "EXERCICIO 28"
-//feito por Rafael Araujo
+// feito por Rafael Araujo
 var
 
   nome :caractere
