@@ -1,5 +1,5 @@
 algoritmo "EXERCICIO 39"
-
+// feito por Rafael Araujo
 var
 
   distancia_total,valor_combustivel,consumo :real
@@ -27,8 +27,8 @@ procedimento calculo
     litros <- distancia_total / consumo
     custo <- valor_combustivel * litros
 
-    escreval ("A quantidade necessaria de combustivel pra viagem é ",litros:3:2," litros.")
-    escreval ("O custo total da viagem é ",custo," reais.")
+    escreval ("A quantidade necessaria de combustivel pra viagem Ã© ",litros:3:2," litros.")
+    escreval ("O custo total da viagem Ã© ",custo," reais.")
 
 fimprocedimento
 
