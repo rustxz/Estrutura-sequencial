@@ -18,6 +18,10 @@ fimprocedimento
 
 inicio
 
+  escreval ("----------------------------")
+  escreval ("   CALCULADORA DE SALARIO   ")
+  escreval ("----------------------------")
+  
   repita
     escreval ("Digite o nome do funcionario: ")
     leia (nome)
