@@ -19,6 +19,11 @@ procedimento coleta_de_dados (var x :real ;palavra :caractere)
 
 fimprocedimento
 inicio
+  
+  escreval ("------------------------------")
+  escreval ("   Pagamento de combustível   ")
+  escreval ("------------------------------")
+  
   coleta_de_dados(litros_abastecidos,"a quantidade de litros abastecidos: ")
   coleta_de_dados(valor_combustivel,"o valor do combustivel: ")
   escreval ("O valor a pagar é = ",litros_abastecidos * valor_combustivel, " reais.")
